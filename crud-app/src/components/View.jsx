@@ -31,7 +31,7 @@ function View() {
         setZipcode(response.data.address.zipcode)
         setLat(response.data.address.geo.lat)
         setLng(response.data.address.geo.lng)
-        setPhone(response.data.address.phone)
+        setPhone(response.data.phone)
       }
     } catch (error) {
         toast.error("Internal Server Error")
